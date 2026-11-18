@@ -1,15 +1,7 @@
-# Sweden — Original AMRFinderPlus annotations
+# Sweden — original AMRFinderPlus annotations
 
-This directory contains 40 original AMRFinderPlus annotation files for selected wastewater-derived *Escherichia coli* genome assemblies from Stockholm, Sweden (NCBI BioProject PRJNA1266621).
+This directory contains 40 original per-assembly TSV outputs for selected Swedish municipal wastewater *Escherichia coli* genomes (NCBI BioProject PRJNA1266621).
 
-Each TSV file corresponds to one genome assembly identified by its NCBI assembly accession number.
+Each file is named by assembly accession. AMRFinderPlus 4.2.7 and database 2026-10-29.1 were used. Files are **unfiltered** and precede the conservative processing described in `../../derived/`.
 
-**Annotation software:** AMRFinderPlus 4.2.7
-
-**Database:** 2026-10-29.1
-
-The files represent unfiltered annotation outputs. Filtering criteria and derived analytical matrices are documented separately in the repository.
-
-Sample assignments and metadata are provided in `../../sample_manifest.csv`.
-
-The Swedish and German collections originated from independent studies with different sampling and isolate-selection procedures. Comparisons between collections are descriptive and should not be interpreted as representative geographical differences in antimicrobial resistance prevalence.
+Selection metadata are provided in `../../selected_genomes.tsv` where available; the 40 assemblies should not be taken as a representative sample of Sweden. Original assemblies remain at NCBI. The recovery of the selection/retrieval history is described in `../../../code/bash/README.md`.
