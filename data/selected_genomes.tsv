@@ -1,0 +1,41 @@
+accession	biosample	strain	source	collection_date	fasta
+GCA_053096885.1	SAMN48681432	SE-SI-W-Ec5	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053096885.1/GCA_053096885.1_ASM5309688v1_genomic.fna
+GCA_053096905.1	SAMN48681431	SE-SI-W-Ec4	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053096905.1/GCA_053096905.1_ASM5309690v1_genomic.fna
+GCA_053096925.1	SAMN48681429	SE-HDO-W-Ec6	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053096925.1/GCA_053096925.1_ASM5309692v1_genomic.fna
+GCA_053096945.1	SAMN48681430	SE-SI-W-Ec3	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053096945.1/GCA_053096945.1_ASM5309694v1_genomic.fna
+GCA_053096965.1	SAMN48681428	SE-HDO-W-Ec4	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053096965.1/GCA_053096965.1_ASM5309696v1_genomic.fna
+GCA_053096985.1	SAMN48681427	SE-HDO-W-Ec3	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053096985.1/GCA_053096985.1_ASM5309698v1_genomic.fna
+GCA_053097145.1	SAMN48681418	SE-HDO-W-Ec8	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097145.1/GCA_053097145.1_ASM5309714v1_genomic.fna
+GCA_053097185.1	SAMN48681417	SE-HDO-W-Ec7	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097185.1/GCA_053097185.1_ASM5309718v1_genomic.fna
+GCA_053097265.1	SAMN48681413	SE-HDI-W-Ec7	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097265.1/GCA_053097265.1_ASM5309726v1_genomic.fna
+GCA_053097285.1	SAMN48681412	SE-HDI-W-Ec6	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097285.1/GCA_053097285.1_ASM5309728v1_genomic.fna
+GCA_053097305.1	SAMN48681411	SE-HDI-W-Ec4	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097305.1/GCA_053097305.1_ASM5309730v1_genomic.fna
+GCA_053097325.1	SAMN48681410	SE-HDI-W-Ec3	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097325.1/GCA_053097325.1_ASM5309732v1_genomic.fna
+GCA_053097345.1	SAMN48681409	SE-HDI-W-Ec1	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097345.1/GCA_053097345.1_ASM5309734v1_genomic.fna
+GCA_053097425.1	SAMN48681402	SE-HDO-W-EcE8	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097425.1/GCA_053097425.1_ASM5309742v1_genomic.fna
+GCA_053097465.1	SAMN48681401	SE-SI-W-EcE7	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097465.1/GCA_053097465.1_ASM5309746v1_genomic.fna
+GCA_053097485.1	SAMN48681400	SE-SI-W-EcE6	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097485.1/GCA_053097485.1_ASM5309748v1_genomic.fna
+GCA_053097505.1	SAMN48681399	SE-SI-W-EcE1	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097505.1/GCA_053097505.1_ASM5309750v1_genomic.fna
+GCA_053097525.1	SAMN48681398	SE-SI-W-EcE4	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097525.1/GCA_053097525.1_ASM5309752v1_genomic.fna
+GCA_053097545.1	SAMN48681397	SE-SI-W-EcE3	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097545.1/GCA_053097545.1_ASM5309754v1_genomic.fna
+GCA_053097565.1	SAMN48681396	SE-HDI-W-EcE7	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097565.1/GCA_053097565.1_ASM5309756v1_genomic.fna
+GCA_053097585.1	SAMN48681395	SE-HDI-W-EcE6	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097585.1/GCA_053097585.1_ASM5309758v1_genomic.fna
+GCA_053097605.1	SAMN48681394	SE-HDI-W-EcE5	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097605.1/GCA_053097605.1_ASM5309760v1_genomic.fna
+GCA_053097625.1	SAMN48681393	SE-HDI-W-EcE4	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097625.1/GCA_053097625.1_ASM5309762v1_genomic.fna
+GCA_053097645.1	SAMN48681392	SE-HDI-W-EcE3 (G4)	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097645.1/GCA_053097645.1_ASM5309764v1_genomic.fna
+GCA_053097685.1	SAMN48681391	SE-HDI-W-EcE2	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097685.1/GCA_053097685.1_ASM5309768v1_genomic.fna
+GCA_053097765.1	SAMN48681384	SE-HDO-W-EcE1 (p)	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097765.1/GCA_053097765.1_ASM5309776v1_genomic.fna
+GCA_053097825.1	SAMN48681382	SE-SI-W-EcE8 (p)	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097825.1/GCA_053097825.1_ASM5309782v1_genomic.fna
+GCA_053097865.1	SAMN48681381	SE-HD-W-Ec1 (p)	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097865.1/GCA_053097865.1_ASM5309786v1_genomic.fna
+GCA_053097885.1	SAMN48681380	SE-HDI-W-EcE1 (p)	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097885.1/GCA_053097885.1_ASM5309788v1_genomic.fna
+GCA_053097925.1	SAMN48681379	SE-HD-W-Ec7 (p)	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097925.1/GCA_053097925.1_ASM5309792v1_genomic.fna
+GCA_053097945.1	SAMN48681377	SE-SI-W-EcE5 (p)	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097945.1/GCA_053097945.1_ASM5309794v1_genomic.fna
+GCA_053097965.1	SAMN48681376	SE-SI-W-EcE2 (p)	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097965.1/GCA_053097965.1_ASM5309796v1_genomic.fna
+GCA_053097985.1	SAMN48681375	SE-HD-W-EcE6 (p)	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053097985.1/GCA_053097985.1_ASM5309798v1_genomic.fna
+GCA_053098005.1	SAMN48681374	SE-SI-W-Ec8 (p)	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053098005.1/GCA_053098005.1_ASM5309800v1_genomic.fna
+GCA_053098025.1	SAMN48681372	SE-HDI-W-Ec8 (p)	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053098025.1/GCA_053098025.1_ASM5309802v1_genomic.fna
+GCA_053098045.1	SAMN48681371	SE-HDO-W-EcE5 (p)	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053098045.1/GCA_053098045.1_ASM5309804v1_genomic.fna
+GCA_053098085.1	SAMN48681370	SE-HDI-W-Ec2	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053098085.1/GCA_053098085.1_ASM5309808v1_genomic.fna
+GCA_053098105.1	SAMN48681369	SE-HDI-W-Ec5	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053098105.1/GCA_053098105.1_ASM5309810v1_genomic.fna
+GCA_053098145.1	SAMN48681367	SE-SI-W-Ec1	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053098145.1/GCA_053098145.1_ASM5309814v1_genomic.fna
+GCA_053098185.1	SAMN48681365	SE-HDO-W-EcE4	wastewater	2022-06	input/sweden_all/ncbi_dataset/data/GCA_053098185.1/GCA_053098185.1_ASM5309818v1_genomic.fna
