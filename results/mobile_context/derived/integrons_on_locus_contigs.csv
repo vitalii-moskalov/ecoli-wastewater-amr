@@ -1,0 +1,2 @@
+accession,country,contig,integron_id,start,stop,distance_to_locus_bp,interval_overlap_bp
+GCA_003145155.1,Germany,NBCF01000129.1,integron_01,18265,21408,0,26
