@@ -1,35 +1,29 @@
-# Python analysis workflows
+# Python analysis and validation
 
-This directory is intended to document the Python-based computational analyses performed for the wastewater-derived *Escherichia coli* study.
+Python scripts used to independently check or reproduce selected analytical steps. Unless stated otherwise, these programs were developed or reconstructed for the November 2026 audit; they **must not** be presented as the original historical implementations.
 
-## Analytical components
+| File | Purpose |
+| --- | --- |
+| `verify_amr_data.py` | Check original TSV integrity, filtering and binary presence matrices (407 retained records, 60 symbols) |
+| `recalculate_gene_cooccurrence.py` | Recalculate 253 one-sided Fisher tests per collection and BH-adjusted p-values; generate association tables |
+| `figure1.py` | Audit and render eight functional/contextual category prevalences and Wilson intervals |
+| `figure2.py` | Audit and render nine selected ARG co-occurrence pairs |
+| `figure3.py` | Audit and render the conserved resistance-locus architecture |
+| `verify_clonality_results.py` | Validate 132 MLST results and 8,646 unique ANI/AF pairs |
+| `verify_mobile_context_reports.py` | Verify file counts, sizes and SHA-256 for 140 context reports |
+| `summarize_mobile_context.py` | Construct derived per-carrier summaries from archived MOB-suite/IntegronFinder, locus and MLST inputs |
 
-The analysis includes:
+Run from a local repository root, for example:
 
-1. Processing and conservative filtering of AMRFinderPlus annotations.
-2. Construction of core AMR and non-POINT gene presence–absence matrices.
-3. Descriptive statistics and functional classification of resistance determinants.
-4. Statistical analysis of resistance-gene co-occurrence with multiple-testing correction.
-5. Analysis of conserved resistance-associated nucleotide sequences and their genomic context.
-6. Integration of MLST and ANI results.
-7. Generation of manuscript tables and figures.
+```bash
+python code/python/verify_amr_data.py
+python code/python/verify_clonality_results.py
+python code/python/verify_mobile_context_reports.py
+python code/python/figure1.py --check-only
+python code/python/figure2.py --check-only
+python code/python/figure3.py --check-only
+```
 
-## Script provenance
+The plotting scripts use Matplotlib to produce figures. **The non-plotting validation scripts largely use the Python standard library.** Regeneration scripts can write or overwrite files in `results/`; use a clean working copy or specify a separate output directory where supported. Execution parameters and required input paths are described in each script.
 
-Historical analysis scripts and independently developed verification scripts will be identified separately.
-
-Some existing Python scripts depend on absolute file paths and intermediate datasets from the original analytical environment.
-
-Scripts will be added following verification of their inputs, outputs, computational assumptions, and consistency with the manuscript.
-
-## Scientific validation
-
-Statistical associations are distinguished from physical gene co-localization and inferred genetic mobility.
-
-Genome relatedness and differences in sampling strategies are considered when interpreting associations and between-collection comparisons.
-
-## Current status
-
-The Python workflows are undergoing final scientific and reproducibility auditing.
-
-The presence of an archived script does not imply that it has been validated as part of a portable end-to-end pipeline.
+Scientific limits: curated AMR-category assignments are partly provisional; statistical co-occurrence does not demonstrate physical linkage or horizontal gene transfer.
