@@ -1,0 +1,18 @@
+{
+  "provenance": "Reconstructed independent verification, 2026-11-18; not historical code",
+  "n_genomes": 132,
+  "cohorts": {
+    "Germany": 92,
+    "Sweden": 40
+  },
+  "n_non_POINT_symbols": 43,
+  "eligibility": "Symbol present in >=3 of all 132 genomes",
+  "n_eligible_symbols": 23,
+  "n_pairwise_tests_per_country": 253,
+  "test": "One-sided Fisher exact, alternative=greater; no phylogenetic adjustment",
+  "multiplicity": "BH separately within each cohort, across all 253 pairs (including zero-overlap)",
+  "both_countries_q_lt_0_05": 13,
+  "figure2_display_rule": "Both-country BH q<0.05 and >=3 joint detections in each country",
+  "figure2_pairs": 9,
+  "interpretation": "Statistical co-occurrence only; does not establish linkage or horizontal transfer"
+}
