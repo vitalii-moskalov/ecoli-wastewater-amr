@@ -1,14 +1,7 @@
-# Germany — Original AMRFinderPlus annotations
+# Germany — original AMRFinderPlus annotations
 
-This directory contains 92 original AMRFinderPlus annotation files for *Escherichia coli* genome assemblies from municipal wastewater in Dresden, Germany (NCBI BioProject PRJNA380388).
+This directory contains 92 original TSV annotation files from German municipal wastewater *Escherichia coli* assemblies (NCBI BioProject PRJNA380388): 50 influent and 42 effluent assemblies.
 
-The collection comprises 50 influent and 42 effluent isolates.
+Each file is named by NCBI assembly accession. AMRFinderPlus 4.2.7 and database 2026-10-29.1 were used. These files are **unfiltered**, and should not be confused with the filtered core table in `../../derived/`.
 
-Each TSV file corresponds to one genome assembly and is identified by its NCBI assembly accession number.
-
-**Annotation software:** AMRFinderPlus 4.2.7  
-**Database:** 2026-10-29.1
-
-The files represent unfiltered annotation outputs. Filtering criteria and derived analytical matrices are documented separately in the repository.
-
-Sample assignments and metadata are provided in `../../sample_manifest.csv`.
+Collection labels and sample metadata are in `../../sample_manifest.csv`. Original assemblies are available from NCBI.
