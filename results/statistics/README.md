@@ -1,45 +1,23 @@
-# Statistical analysis results
+# Statistical results
 
-This directory contains reproducible statistical outputs from the comparative analysis of antimicrobial resistance determinants in 132 wastewater-derived *Escherichia coli* genome assemblies.
+## ARG co-occurrence
 
-## Gene co-occurrence analysis
+The 132-genome non-POINT matrix includes 42 retained determinant symbols, of which **23** were observed in at least three assemblies overall. This yields **253 unique pairs**. One-sided Fisher exact tests for positive associations were performed separately for Germany (92 assemblies, influent and effluent combined) and Sweden (40 assemblies). Benjamini–Hochberg FDR adjustment was performed separately across the 253 tests within each collection.
 
-Pairwise associations were evaluated using the non-POINT gene presence–absence matrix.
+- `gene_pairs_all_253.csv`: full tested set.
+- `gene_pairs_both_fdr_13.csv`: 13 pairs meeting FDR < 0.05 in **both** collections.
+- `gene_pairs_figure2_9.csv`: display subset requiring at least three co-detections in **each** collection (a descriptive presentation rule, not a significance test).
+- `gene_pair_audit_summary.json`: audit settings and summary.
 
-Genes detected in at least three genomes across the complete dataset were eligible for analysis.
+Recalculation: `../../code/python/recalculate_gene_cooccurrence.py`. This reconstructed script is **not** the original historical analysis script.
 
-The analysis included:
+## Figure 1 functional and contextual categories
 
-- 23 eligible gene symbols.
-- 253 unique gene pairs.
-- 92 German genomes (influent and effluent combined).
-- 40 Swedish genomes.
+- `mechanism_prevalence_by_group.csv`: eight predicted categories × three collection groups (24 rows); percentages are per assembly with at least one assigned feature, including 95% Wilson confidence intervals.
+- `germany_mechanism_fisher_bh.csv`: eight German influent-versus-effluent Fisher tests with BH correction; none is significant at FDR < 0.05.
 
-Positive associations were evaluated using one-sided Fisher's exact tests. Benjamini–Hochberg false discovery rate correction was applied separately to all 253 tests within each collection.
+Validation/plotting: `../../code/python/figure1.py`. The category dictionary is **provisional**, and these are not experimentally verified resistance mechanisms.
 
-## Output files
+## Limitations
 
-- `gene_pairs_all_253.csv` — complete pairwise association results.
-- `gene_pairs_both_fdr_13.csv` — 13 pairs with q < 0.05 in both collections.
-- `gene_pairs_figure2_9.csv` — nine pairs additionally meeting the criterion of at least three joint detections in each collection.
-- `gene_pair_audit_summary.json` — computational settings and verification summary.
-
-## Reproducibility
-
-The results can be independently recalculated using:
-
-`../../code/python/recalculate_gene_cooccurrence.py`
-
-This Python script was reconstructed during the scientific audit on 18 November 2026 and is not the original historical analysis script.
-
-## Interpretation and limitations
-
-Gene co-occurrence represents statistical association and does not establish physical linkage, plasmid localization, or horizontal gene transfer.
-
-The pairwise tests assume independent genomes and do not formally account for bacterial population structure or clonality.
-
-Differences in sampling and isolate-selection procedures preclude population-level interpretation of between-country prevalence differences.
-
-The nine pairs included in Figure 2 represent a display subset of the 13 pairs significant in both collections, selected using an additional explicit criterion of at least three joint detections in each collection. This criterion is descriptive and does not constitute an additional statistical significance test.
-
-These analyses are exploratory and should be interpreted accordingly.
+Genome independence is assumed by the pairwise tests; the primary tests do not control phylogenetic population structure. Differences in study design preclude nationally representative comparison. Statistical co-occurrence is not physical gene linkage, plasmid assignment, or proof of horizontal transfer.
