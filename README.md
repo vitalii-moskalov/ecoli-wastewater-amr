@@ -1,71 +1,63 @@
 # Antimicrobial resistance determinants in wastewater-derived *Escherichia coli*
 
-## Overview
-
-This repository contains data, computational workflows, and supporting materials for the study:
+Supporting datasets, computational scripts, validation routines and figures for the study:
 
 **Molecular diversity and co-occurrence of antimicrobial resistance determinants in wastewater-derived Escherichia coli: a comparative genomic analysis**
 
-**Authors:** V. B. Moskalov and Y. D. Batuieva
+Authors: V. B. Moskalov and Y. D. Batuieva.
 
-The study investigates the molecular diversity, functional distribution, co-occurrence, and genomic organization of antimicrobial resistance determinants in *Escherichia coli* isolated from municipal wastewater.
+## Scope and design
 
-The analysis focuses on resistance-associated genomic variation within urban wastewater systems, recurrent antimicrobial resistance gene combinations, bacterial population structure, and predicted associations with mobile genetic elements.
+The analysis includes **132 publicly available genome assemblies**: 50 from German municipal wastewater influent and 42 from effluent (BioProject **PRJNA380388**) and 40 selected Swedish wastewater assemblies (BioProject **PRJNA1266621**). The collections originate from different studies and sampling/selection procedures; between-collection comparisons are descriptive, **not** estimates of national AMR prevalence.
 
-## Datasets
-
-The study includes 132 publicly available *E. coli* genome assemblies from two independently generated collections:
-
-| Collection | Number of genomes | NCBI BioProject |
-|---|---:|---|
-| Germany — WWTP influent | 50 | PRJNA380388 |
-| Germany — WWTP effluent | 42 | PRJNA380388 |
-| Sweden — wastewater | 40 | PRJNA1266621 |
-| **Total** | **132** | |
-
-The original studies used different sampling and isolate-selection procedures. Consequently, comparisons between the German and Swedish collections are descriptive and should not be interpreted as representative estimates of geographical differences in antimicrobial resistance prevalence.
-
-## Computational methods
-
-The analytical workflow includes:
-
-1. Genome accession verification and metadata harmonization.
-2. Antimicrobial resistance determinant annotation using NCBI AMRFinderPlus.
-3. Construction of resistance determinant presence–absence matrices.
-4. Functional classification and statistical analysis of resistance profiles.
-5. Pairwise gene co-occurrence analysis with false discovery rate correction.
-6. Examination of conserved resistance-associated nucleotide sequences.
-7. Multilocus sequence typing and average nucleotide identity analysis.
-8. Prediction of plasmid-associated genomic context and integron structures.
-
-The study integrates genomic annotations, statistical associations, nucleotide-level organization, and bacterial relatedness. Statistical gene co-occurrence is distinguished from physical gene linkage, and predicted plasmid association is not treated as direct evidence of horizontal gene transfer.
-
-## Software
-
-Major tools used in the study include:
-
-| Tool | Version |
-|---|---|
-| AMRFinderPlus | 4.2.7 |
-| AMRFinderPlus database | 2026-10-29.1 |
-| mlst | 2.35.0 |
-| skani | 0.4.0 |
-| MOB-suite | 3.1.9 |
-| IntegronFinder | 2.0.6 |
-| Python | See workflow-specific environment information |
+The analyses cover AMRFinderPlus annotations, curated presence–absence matrices, ARG co-occurrence, MLST/ANI, and a targeted genomic-context investigation of a conserved `sul2`–`aph(3'')-Ib`–`aph(6)-Id` locus in 20 assemblies.
 
 ## Repository contents
 
-The repository is being organized into directories containing input metadata, annotation outputs, analysis scripts, verified results, figures, supplementary materials, and computational provenance.
+| Directory | Contents |
+| --- | --- |
+| [`data/`](data/) | Genome manifest, original AMRFinderPlus outputs and curated matrices |
+| [`code/`](code/) | Historical Bash workflows, reconstructed retrieval script, Python analyses and validation |
+| [`results/`](results/) | Statistics, MLST/ANI, and original/derived mobile-context reports |
+| [`figures/`](figures/) | Three manuscript figures, numeric plotting sources and formats |
+| [`supplementary/`](supplementary/) | Audited **working draft** of Supplementary Tables S1–S5 and provenance notes |
 
-Original genome assemblies are available from NCBI and are not intended to be duplicated in this repository.
+## Principal software and reference data
 
-## Reproducibility status
+- AMRFinderPlus **4.2.7**, database **2026-10-29.1**, `--organism Escherichia --plus`.
+- `mlst` **2.35.0** (Achtman scheme); `skani` **0.4.0**.
+- MOB-suite **3.1.9** and IntegronFinder **2.0.6** (original computational outputs for 20 assemblies).
+- Original genome assemblies are referenced by NCBI accession; the FASTA collections are **not redistributed** here.
 
-**Repository under preparation and final scientific audit.**
+## Key analytical distinctions
 
-Computational outputs, analytical scripts, filtering rules, and figure source data are being consolidated and checked against the original results. Additional documentation will be provided as the audit is completed.
+- The corrected conservative annotation dataset retains **407 AMRFinderPlus records**, **60 unique determinant symbols**, and documents **18 excluded records**, including an `INTERNAL_STOP` hit.
+- The gene-only analysis considered **253 pairs** among 23 eligible gene symbols. **13** pairs pass FDR < 0.05 in both collections; **nine** are displayed in Figure 2 after an additional minimum of three co-detections in each collection.
+- Statistical co-occurrence is not evidence of physical linkage. Same-contig localization is distinct from plasmid prediction, and neither alone demonstrates horizontal gene transfer.
+- Functional mechanism assignments remain **provisional** for some variants and do not establish experimentally measured resistance phenotypes.
 
-## Citation
+## Basic reproducibility checks
 
-The associated manuscript is in preparation. Publication details and the recommended citation will be added when available.
+Clone or download the repository and run the following commands **from its root** using Python 3:
+
+```bash
+python code/python/verify_amr_data.py
+python code/python/recalculate_gene_cooccurrence.py --help
+python code/python/verify_clonality_results.py
+python code/python/verify_mobile_context_reports.py
+python code/python/figure1.py --check-only
+python code/python/figure2.py --check-only
+python code/python/figure3.py --check-only
+```
+
+Some figure-generation commands additionally require Matplotlib. **Caution:** certain data-generation scripts write into `results/` when run without an alternate output directory. Use a disposable clone or configure an output directory before regenerating tables. The repository is a documented collection of archived procedures and independently verified components, **not** a validated one-command end-to-end pipeline from raw NCBI assemblies.
+
+## Scientific and publication status
+
+The supplementary tables are an **audited working draft**. Table S5 and the functional category assignments remain provisional. Manuscript Table 1, methods and final text must be aligned with the `INTERNAL_STOP` correction before journal submission. Read [`supplementary/AUDIT_AND_PROVENANCE.md`](supplementary/AUDIT_AND_PROVENANCE.md) for known limitations.
+
+## Licensing and attribution
+
+Software authored for this repository is offered under the [MIT License](LICENSE). Original author-created tables, figure artwork and repository documentation are offered under [CC BY 4.0](LICENSE-DATA.md) **to the extent the contributors hold the rights**. NCBI source data, accession-associated metadata and unmodified third-party tool outputs are excluded from any blanket relicensing; their original terms and citations remain applicable. See [LICENSING.md](LICENSING.md).
+
+Please cite the associated manuscript when bibliographic details are available, and identify the repository URL and commit or release used for analyses.
