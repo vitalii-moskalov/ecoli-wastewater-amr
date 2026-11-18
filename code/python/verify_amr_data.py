@@ -10,7 +10,7 @@ Usage from any directory:
     python code/python/verify_amr_data.py --repo /path/to/repository
     python code/python/verify_amr_data.py --checksums /path/to/checksums.csv
 
-This script checks consistency with the archived filtering rules; it does NOT
+This script checks consistency with explicitly conservative filtering rules, including INTERNAL_STOP; it does NOT
 establish that the biological selection criteria are optimal or exhaustive.
 """
 
@@ -129,6 +129,7 @@ def main():
                 continue
             symbol = row["Element symbol"]
             bad = ("DISRUPT" in row["Subtype"].upper()
+                   or "INTERNAL_STOP" in row["Method"].upper()
                    or "PARTIAL" in row["Method"].upper()
                    or bool(re.search(r"fsTer|Ter[0-9]*$", symbol, flags=re.I)))
             if bad:
@@ -162,7 +163,7 @@ def main():
     gene_symbols, gene_positive = assert_matrix(
         derived / "presence_gene_only.csv", set(meta), expected_genes)
     require((len(hits), len(rejected), all_symbols, gene_symbols,
-             all_positive, gene_positive) == (408, 17, 61, 43, 392, 288),
+             all_positive, gene_positive) == (407, 18, 60, 42, 391, 287),
             "Unexpected summary totals: inspect possible dataset version drift")
     positive_genomes = len(set(acc for acc, _ in expected_all))
     require(positive_genomes == 82, f"Unexpected AMR-positive isolate count: {positive_genomes}")
