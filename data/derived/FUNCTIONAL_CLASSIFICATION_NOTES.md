@@ -1,6 +1,6 @@
 # Functional classification audit notes
 
-**Status:** Provisional manual mechanism classification; manuscript interpretation still under review (18 November 2026).
+**Status:** Annotation-based functional/contextual dictionary curated and approved for repository release (18 November 2026). Nineteen entries retain context-dependent (`conditional`) interpretation.
 
 ## Input and verification
 
@@ -17,12 +17,12 @@
 2. `cyaA_S352T` is annotated with original AMRFinderPlus `drug_class=FOSMIDOMYCIN`. Published analyses discuss this substitution in the context of **fosfomycin**; these drug names are not interchangeable, and a causal resistance phenotype is not established for every isolate carrying the variant. The source class was preserved verbatim.
 3. `ptsI_V25I` and `uhpT_E350Q` are reported as fosfomycin-associated variants but should not be interpreted as evidence of fosfomycin resistance without susceptibility testing and appropriate allelic context.
 4. `mrx(A)` is an accessory gene that can potentiate `mph(A)`-associated macrolide resistance, but it should not be counted as an independently established antibiotic-inactivating enzyme.
-5. Core AMR results include **POINT** entries. The manuscript phrase `Scope = core, Type = AMR` as the only inclusion criterion is inconsistent with this; revise to `Scope = core with Type = AMR or POINT as applicable`, followed by the documented exclusion rules.
+5. The raw AMRFinderPlus TSV files use `Type = AMR` for retained resistance findings, including entries where `Subtype = POINT`. Therefore `Scope = core` and `Type = AMR` are **not inconsistent** with the inclusion of POINT annotations. For the gene-only association matrix, exclude `Subtype = POINT` explicitly; describe the separate filtering of disrupted hits, including `INTERNAL_STOP`. This corrects an earlier note that incorrectly treated POINT as a `Type` value.
 6. This dictionary does not demonstrate antimicrobial resistance phenotypes, physical co-localization of genes or horizontal transfer.
 
 ## Status and planned use
 
-This dictionary can be deposited as a **provisional curation resource** in the private repository. Do not yet describe the functional assignments as independently experimentally validated. Figure 1 uses the same eight-category count definitions; its numerical consistency has been verified, but the caption and narrative must differentiate predicted biochemical mechanisms from indirect/contextual associations.
+This curated dictionary may be released with the repository as an annotation-based classification resource. Do not describe functional assignments as experimentally established resistance phenotypes. Figure 1 uses the same eight-category count definitions; its numerical consistency has been verified, but the figure caption and manuscript distinguish predicted biochemical mechanisms from indirect/contextual associations.
 
 ## Relevant references for the interpretation cautions
 
