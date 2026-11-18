@@ -5,7 +5,7 @@
     "Germany": 92,
     "Sweden": 40
   },
-  "n_non_POINT_symbols": 43,
+  "n_non_POINT_symbols": 42,
   "eligibility": "Symbol present in >=3 of all 132 genomes",
   "n_eligible_symbols": 23,
   "n_pairwise_tests_per_country": 253,
