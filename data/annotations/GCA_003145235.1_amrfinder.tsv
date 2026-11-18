@@ -1,0 +1,14 @@
+Protein id	Contig id	Start	Stop	Strand	Element symbol	Element name	Scope	Type	Subtype	Class	Subclass	Method	Target length	Reference sequence length	% Coverage of reference	% Identity to reference	Alignment length	Closest reference accession	Closest reference name	HMM accession	HMM description
+NA	NBCR01000011.1	264	1472	+	mdtM	multidrug efflux MFS transporter MdtM	plus	AMR	AMR	EFFLUX	EFFLUX	BLASTX	403	410	98.29	97.27	403	AAC77293.1	multidrug efflux MFS transporter MdtM	NA	NA
+NA	NBCR01000013.1	16923	19178	-	parC_S80I	Escherichia quinolone resistant ParC	core	AMR	POINT	QUINOLONE	QUINOLONE	POINTX	752	752	100.00	99.87	752	WP_001281881.1	DNA topoisomerase IV subunit A ParC	NA	NA
+NA	NBCR01000013.1	26712	28601	-	parE_L416F	Escherichia quinolone resistant ParE	core	AMR	POINT	QUINOLONE	QUINOLONE	POINTX	630	630	100.00	99.68	630	WP_033554192.1	DNA topoisomerase IV subunit B ParE	NA	NA
+NA	NBCR01000020.1	16755	17885	-	blaEC	BlaEC family class C beta-lactamase	plus	AMR	AMR	BETA-LACTAM	BETA-LACTAM	EXACTX	377	377	100.00	100.00	377	AAC77110.1	BlaEC family class C beta-lactamase	NA	NA
+NA	NBCR01000061.1	278	1594	-	iroN	siderophore salmochelin receptor IroN	plus	VIRULENCE	VIRULENCE	NA	NA	PARTIALX	439	725	60.55	99.77	439	AAN79707.1	siderophore salmochelin receptor IroN	NA	NA
+NA	NBCR01000067.1	23646	27893	-	fdeC	inverse autotransporter adhesin FdeC	plus	VIRULENCE	VIRULENCE	NA	NA	BLASTX	1416	1416	100.00	94.07	1416	ABE05822.1	inverse autotransporter adhesin FdeC	NA	NA
+NA	NBCR01000070.1	203166	204584	+	espX1	type III secretion system effector EspX1	plus	VIRULENCE	VIRULENCE	NA	NA	BLASTX	473	473	100.00	89.22	473	ADD54679.1	type III secretion system effector EspX1	NA	NA
+NA	NBCR01000091.1	946	1218	-	merP	mercury resistance system periplasmic binding protein MerP	plus	STRESS	METAL	MERCURY	MERCURY	BLASTX	91	91	100.00	90.11	91	AAC38219.1	mercury resistance system periplasmic binding protein MerP	NA	NA
+NA	NBCR01000091.1	1235	1582	-	merT	mercuric transport protein MerT	plus	STRESS	METAL	MERCURY	MERCURY	EXACTX	116	116	100.00	100.00	116	AAB59075.1	mercuric transport protein MerT	NA	NA
+NA	NBCR01000091.1	1654	2085	+	merR	mercury resistance transcriptional regulator MerR	plus	STRESS	METAL	MERCURY	MERCURY	BLASTX	144	144	100.00	93.75	144	CAA77320.1	mercury resistance transcriptional regulator MerR	NA	NA
+NA	NBCR01000095.1	6987	7250	-	ariR	biofilm/acid-resistance regulator AriR	plus	STRESS	ACID	NA	NA	EXACTX	88	88	100.00	100.00	88	AAC74250.1	biofilm/acid-resistance regulator AriR	NA	NA
+NA	NBCR01000135.1	203414	206038	-	gyrA_D87N	Escherichia quinolone resistant GyrA	core	AMR	POINT	QUINOLONE	QUINOLONE	POINTX	875	878	99.66	98.86	875	WP_001281243.1	DNA gyrase subunit A GyrA	NA	NA
+NA	NBCR01000135.1	203414	206038	-	gyrA_S83L	Escherichia quinolone resistant GyrA	core	AMR	POINT	QUINOLONE	QUINOLONE	POINTX	875	878	99.66	98.86	875	WP_001281243.1	DNA gyrase subunit A GyrA	NA	NA
