@@ -1,0 +1,25 @@
+group,mechanism,n,N,percent,ci_low,ci_high
+Germany influent,Antibiotic inactivation,15,50,30.0,19.103553500880942,43.750350464453405
+Germany influent,Active efflux,10,50,20.0,11.24375001577611,33.037105932225415
+Germany influent,Target replacement / bypass,12,50,24.0,14.29739139699172,37.41268375794292
+Germany influent,Target protection,2,50,4.0,1.1038884327619818,13.460090687507023
+Germany influent,Target alteration,7,50,14.0,6.950833427016288,26.18619371058554
+Germany influent,Indirect / transport / metabolic variant,11,50,22.0,12.753915970214418,35.24154958125367
+Germany influent,Regulatory / expression-associated,3,50,6.0,2.0614970348973944,16.217091688838174
+Germany influent,Accessory / contextual,3,50,6.0,2.0614970348973944,16.217091688838174
+Germany effluent,Antibiotic inactivation,17,42,40.5,27.04286114748133,55.50568724996066
+Germany effluent,Active efflux,10,42,23.8,13.480964224647126,38.52754386831832
+Germany effluent,Target replacement / bypass,11,42,26.2,15.302640287832983,41.06873070577197
+Germany effluent,Target protection,3,42,7.1,2.4590409873305923,19.00942680115832
+Germany effluent,Target alteration,9,42,21.4,11.705799876003029,35.9398453163229
+Germany effluent,Indirect / transport / metabolic variant,9,42,21.4,11.705799876003029,35.9398453163229
+Germany effluent,Regulatory / expression-associated,3,42,7.1,2.4590409873305923,19.00942680115832
+Germany effluent,Accessory / contextual,2,42,4.8,1.3157524908905607,15.789852396958842
+Sweden wastewater,Antibiotic inactivation,24,40,60.0,44.595893660346185,73.65167431570808
+Sweden wastewater,Active efflux,10,40,25.0,14.187118639096305,40.193961420768034
+Sweden wastewater,Target replacement / bypass,16,40,40.0,26.34832568429192,55.40410633965382
+Sweden wastewater,Target protection,13,40,32.5,20.084502231782704,47.98225381012234
+Sweden wastewater,Target alteration,8,40,20.0,10.499989725437704,34.75730634639951
+Sweden wastewater,Indirect / transport / metabolic variant,13,40,32.5,20.084502231782704,47.98225381012234
+Sweden wastewater,Regulatory / expression-associated,4,40,10.0,3.957952868260635,23.051775227522302
+Sweden wastewater,Accessory / contextual,7,40,17.5,8.74541374603592,31.94999033178772

@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-18",
+  "source": "Stage3 + corrected INTERNAL_STOP files + reproduced 2026-11-18 MLST/MOB summaries",
+  "results": {
+    "S1": {
+      "rows": 132,
+      "MLST_COMPLETE": 132,
+      "PERFECT": 130,
+      "NOVEL": 2
+    },
+    "S2": {
+      "rows": 24,
+      "matched_count_and_wilson_ci": 24
+    },
+    "S3": {
+      "rows": 253,
+      "matched_pq": 253,
+      "FDR_both": 13,
+      "Figure2": 9
+    },
+    "S4": {
+      "rows": 20,
+      "matched_context": 20,
+      "format_only_distance_changes": 3
+    },
+    "S5": {
+      "rows": 60,
+      "high": 41,
+      "conditional": 19,
+      "historical_excluded_symbol": "estX/sat2"
+    }
+  },
+  "open_issues": [
+    "S5 biological functional annotations provisional",
+    "Manuscript Table 1 and n_core summaries need post-filtering reconciliation",
+    "Reconfirm repository-uploaded bytes if making public",
+    "Correct Materials and Methods: retained core includes POINT determinants, despite Type=AMR wording",
+    "Correct German effluent distinct symbol count 43 -> 42 and Table 1 mean 2.57 -> 2.55"
+  ]
+}
