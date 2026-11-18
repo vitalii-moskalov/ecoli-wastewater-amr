@@ -27,14 +27,14 @@
       "rows": 60,
       "high": 41,
       "conditional": 19,
-      "historical_excluded_symbol": "estX/sat2"
+      "historical_excluded_symbol": "estX/sat2",
+      "curation_status": "Annotation-based curation accepted; 19 conditional records retained"
     }
   },
   "open_issues": [
-    "S5 biological functional annotations provisional",
-    "Manuscript Table 1 and n_core summaries need post-filtering reconciliation",
-    "Reconfirm repository-uploaded bytes if making public",
-    "Correct Materials and Methods: retained core includes POINT determinants, despite Type=AMR wording",
-    "Correct German effluent distinct symbol count 43 -> 42 and Table 1 mean 2.57 -> 2.55"
+    "Main manuscript Table 1, Results and abstracts require alignment with corrected burden and 13-versus-9 gene-pair counts",
+    "Reconfirm uploaded file checksums and README links after applying patch on GitHub",
+    "Inspect full commit history for sensitive or third-party materials before changing repository visibility",
+    "Publication-related license grants must be confirmed with all applicable rights holders"
   ]
 }
