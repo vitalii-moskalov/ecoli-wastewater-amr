@@ -1,37 +1,19 @@
-# Mobile genetic element and integron context
+# Mobile-element and integron context results
 
-This directory contains computational genomic-context results for 20 *Escherichia coli* assemblies carrying the investigated sul2–aph(3'')-Ib–aph(6)-Id locus.
+The targeted genomic-context analysis covers **20** *Escherichia coli* assemblies (12 Germany, 8 Sweden) carrying the investigated `sul2`–`aph(3'')-Ib`–`aph(6)-Id` locus.
 
-The analyzed subset comprises 12 German and 8 Swedish assemblies.
+Original workflow: `../../code/bash/run_mobile_context.sh` (MOB-suite 3.1.9 and IntegronFinder 2.0.6).
 
-## Software
+## Data
 
-- MOB-suite 3.1.9
-- IntegronFinder 2.0.6
+- `mob_reports/`: 20 accession directories × 4 original text files = **80** reports.
+- `integron_reports/`: 20 accession directories × 3 original reports = **60** reports.
+- `carriers_20_FROM_S4.tsv`: **reconstructed** carrier input list from the archived S4, not the historical original launcher input.
+- `report_sha256.csv`: integrity manifest for the 140 archived reports.
+- `derived/`: integrated assembly-level and locus-contig analyses **reconstructed** from original reports, not primary MOB-suite or IntegronFinder files.
 
-The original Bash execution script is available at `../../code/bash/run_mobile_context.sh`.
+Use `../../code/python/verify_mobile_context_reports.py` to check local report integrity. `../../code/python/summarize_mobile_context.py` regenerates derived summaries and **can overwrite them**.
 
-## Contents
+## Evidence limits
 
-- `mob_reports/` — original MOB-suite text reports for 20 assemblies, including contig classification, plasmid typing, and mobile genetic element predictions.
-- `integron_reports/` — original IntegronFinder reports for the same 20 assemblies.
-- `carriers_20_FROM_S4.tsv` — reconstructed accession list derived from Supplementary Table S4.
-- `report_sha256.csv` — file integrity and provenance records for 140 original text reports.
-
-The original analysis archive contains 20 successful completion markers for each program.
-
-## Interpretation
-
-MOB-suite plasmid assignments and mobility classifications are computational predictions, not experimental confirmation of plasmid structure or horizontal transfer.
-
-Integrons detected within an assembly are not necessarily located on the contig carrying the investigated resistance locus.
-
-Statistical ARG co-occurrence, physical gene co-localization, and horizontal gene transfer are distinct levels of evidence.
-
-## Reproducibility
-
-The text reports are preserved without modifying their original content. Large intermediate FASTA reconstructions are retained separately in the original analysis archive and are not duplicated in this directory.
-
-The carrier accession list was reconstructed from archived results and should not be represented as the original historical input file.
-
-Final interpretation of the genetic context remains subject to integration with the locus coordinates, MLST/ANI results, and manuscript.
+MOB-suite classifications indicate predicted plasmid association. Among 20 carriers, 11 have a replicon marker on the locus-bearing contig. Integron structures occur somewhere in 13 assemblies, but only one locus-bearing contig has a predicted integron interval; its overlap with the investigated locus is limited to **26 bp**. Five MGE annotations occur on locus-bearing contigs in two assemblies. None of these analyses experimentally establishes an entire integron-borne locus or horizontal transfer.
