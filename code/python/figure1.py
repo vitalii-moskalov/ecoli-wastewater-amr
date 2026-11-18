@@ -5,8 +5,8 @@ Reconstructed on 2026-11-18 from the verified 132-assembly AMR dataset.
 Not a historical analysis script. Input files are never modified.
 
 Usage from the repository root:
-    python code/python/audit_figure1.py --check-only
-    python code/python/audit_figure1.py
+    python code/python/figure1.py --check-only
+    python code/python/figure1.py
 
 Plotting requires matplotlib; checking requires only the Python standard library.
 """
@@ -63,7 +63,7 @@ def verify(repo: Path):
     data = repo / 'data'
     stats = repo / 'results' / 'statistics'
     manifest = read_csv(data / 'sample_manifest.csv')
-    dictionary = read_csv(data / 'derived' / 'mechanism_dictionary_60_symbols_provisional.csv')
+    dictionary = read_csv(data / 'derived' / 'mechanism_dictionary_60_symbols.csv')
     matrix = read_csv(data / 'derived' / 'presence_all_core.csv')
     prevalence = read_csv(stats / 'mechanism_prevalence_by_group.csv')
     fisher_report = read_csv(stats / 'germany_mechanism_fisher_bh.csv')
