@@ -4,7 +4,7 @@ This directory separates **statistical summaries**, **bacterial genetic relatedn
 
 | Directory | Data and provenance |
 | --- | --- |
-| [`statistics/`](statistics/) | 253 ARG pairwise comparisons, 13 replicated FDR-significant pairs, the nine displayed Figure 2 pairs, and eight mechanism-category comparisons |
+| [`statistics/`](statistics/) | 253 ARG pairwise comparisons, 13 replicated FDR-significant pairs, the nine displayed Figure 2 pairs, eight mechanism-category comparisons and corrected per-genome burden/bootstrap tables |
 | [`clonality/`](clonality/) | Original MLST and `skani` ANI/AF outputs, plus a derived table of 8,646 unique pairs |
 | [`mobile_context/`](mobile_context/) | MOB-suite and IntegronFinder reports for 20 carriers of the investigated three-gene locus, checksum manifest, and post hoc summaries |
 
