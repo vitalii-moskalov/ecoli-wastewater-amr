@@ -1,26 +1,10 @@
 # Computational workflows
 
-This directory contains scripts documenting the computational procedures used in the comparative genomic analysis of wastewater-derived *Escherichia coli*.
+Scripts documenting the computational analyses of 132 wastewater-derived *Escherichia coli* assemblies.
 
-## Organization
+- [`bash/`](bash/) contains original Ubuntu/WSL2 scripts, and a **reconstructed** Swedish genome retrieval workflow.
+- [`python/`](python/) contains post hoc validation scripts, statistical analysis and plotting routines.
 
-- `bash/` — scripts for genome retrieval, MLST, ANI, and mobile genetic element analysis.
-- `python/` — scripts for antimicrobial resistance annotation processing, statistical analysis, and figure generation.
+**Provenance matters:** original execution scripts and subsequently reconstructed audit scripts are not interchangeable. Some historical scripts refer to WSL2-specific paths or environments and must be reviewed before use. Running scripts may overwrite outputs or remove invalid temporary files. No single fully portable, end-to-end rebuild from initial NCBI downloads has been validated.
 
-## Reproducibility
-
-Original computational scripts are preserved where available. Software versions, reference database versions, input file identifiers, and execution parameters are documented separately.
-
-Some Bash scripts contain paths specific to the original Ubuntu/WSL2 environment and may require configuration before execution on another system.
-
-The statistical analysis workflows are being independently audited against the original AMRFinderPlus outputs and derived data matrices.
-
-## Interpretation
-
-Statistical associations between resistance determinants do not establish their physical co-localization.
-
-Contig-level localization and computational plasmid predictions are distinguished from experimentally demonstrated horizontal gene transfer.
-
-## Status
-
-Computational documentation is under final verification. Scripts should not be interpreted as fully validated end-to-end reproduction workflows until the audit is completed.
+The original genome assemblies remain with NCBI. Statistical ARG co-occurrence, contig-level linkage, plasmid inference and horizontal transfer are separate levels of evidence.
