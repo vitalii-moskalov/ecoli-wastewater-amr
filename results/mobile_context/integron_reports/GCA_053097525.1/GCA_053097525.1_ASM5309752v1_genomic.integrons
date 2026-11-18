@@ -1,0 +1,10 @@
+# integron_finder 2.0.6 
+# cmd: integron_finder /home/mosru/ecoli_sweden_amr/input/sweden_all/ncbi_dataset/data/GCA_053097525.1/GCA_053097525.1_ASM5309752v1_genomic.fna --cpu 2 --outdir /home/mosru/ecoli_mobile_context/results/GCA_053097525.1/integron
+ID_integron	ID_replicon	element	pos_beg	pos_end	strand	evalue	type_elt	annotation	model	type	default	distance_2attC	considered_topology
+integron_01	JBRDYG010000038.1	JBRDYG010000038.1_36	39251	39748	-1	NA	protein	protein	NA	CALIN	Yes	NA	lin
+integron_01	JBRDYG010000038.1	attc_001	39763	39822	-1	7.7e-08	attC	attC	attc_4	CALIN	Yes	NA	lin
+integron_01	JBRDYG010000038.1	JBRDYG010000038.1_37	39824	40612	-1	NA	protein	protein	NA	CALIN	Yes	NA	lin
+integron_01	JBRDYG010000038.1	attc_002	40616	40675	-1	4.2e-07	attC	attC	attc_4	CALIN	Yes	794.0	lin
+integron_01	JBRDYG010000038.1	JBRDYG010000038.1_38	40670	41194	-1	NA	protein	protein	NA	CALIN	Yes	NA	lin
+integron_01	JBRDYG010000038.1	attc_003	41200	41294	-1	0.0037	attC	attC	attc_4	CALIN	Yes	525.0	lin
+integron_01	JBRDYG010000038.1	JBRDYG010000038.1_39	41289	41762	-1	NA	protein	protein	NA	CALIN	Yes	NA	lin

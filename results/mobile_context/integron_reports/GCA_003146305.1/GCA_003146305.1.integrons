@@ -1,0 +1,9 @@
+# integron_finder 2.0.6 
+# cmd: integron_finder /home/mosru/ecoli_germany_amr/input/germany_fasta/GCA_003146305.1.fna --cpu 2 --outdir /home/mosru/ecoli_mobile_context/results/GCA_003146305.1/integron
+ID_integron	ID_replicon	element	pos_beg	pos_end	strand	evalue	type_elt	annotation	model	type	default	distance_2attC	considered_topology
+integron_01	NBKU01000094.1	NBKU01000094.1_2	828	1841	-1	8.2e-26	protein	intI	intersection_tyr_intI	complete	Yes	NA	lin
+integron_01	NBKU01000094.1	NBKU01000094.1_3	1873	2472	1	NA	protein	protein	NA	complete	Yes	NA	lin
+integron_01	NBKU01000094.1	attc_001	2467	2599	1	1.6e-07	attC	attC	attc_4	complete	Yes	NA	lin
+integron_01	NBKU01000094.1	NBKU01000094.1_4	2603	3391	1	NA	protein	protein	NA	complete	Yes	NA	lin
+integron_01	NBKU01000094.1	attc_002	3438	3494	1	0.0002	attC	attC	attc_4	complete	Yes	839.0	lin
+integron_01	NBKU01000094.1	NBKU01000094.1_5	3597	3944	1	NA	protein	protein	NA	complete	Yes	NA	lin

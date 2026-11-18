@@ -1,0 +1,3 @@
+# integron_finder 2.0.6 
+# cmd: integron_finder /home/mosru/ecoli_sweden_amr/input/sweden_all/ncbi_dataset/data/GCA_053097685.1/GCA_053097685.1_ASM5309768v1_genomic.fna --cpu 2 --outdir /home/mosru/ecoli_mobile_context/results/GCA_053097685.1/integron
+# No Integron found
