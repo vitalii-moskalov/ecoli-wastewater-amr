@@ -40,6 +40,6 @@ The pairwise tests assume independent genomes and do not formally account for ba
 
 Differences in sampling and isolate-selection procedures preclude population-level interpretation of between-country prevalence differences.
 
-The nine pairs included in Figure 2 represent a predefined display subset of the 13 pairs meeting the statistical significance criterion in both collections. The additional co-detection threshold is a descriptive selection rule, not a separate statistical significance test.
+The nine pairs included in Figure 2 represent a display subset of the 13 pairs significant in both collections, selected using an additional explicit criterion of at least three joint detections in each collection. This criterion is descriptive and does not constitute an additional statistical significance test.
 
 These analyses are exploratory and should be interpreted accordingly.
