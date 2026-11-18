@@ -1,0 +1,9 @@
+mechanism,influent_n,effluent_n,odds_ratio,p,q_bh
+Antibiotic inactivation,15,17,0.6302521008403361,0.38007507370397664,1.0
+Active efflux,10,10,0.8,0.8005109504933394,1.0
+Target replacement / bypass,12,11,0.8899521531100478,0.8142890410076814,1.0
+Target protection,2,3,0.5416666666666666,0.6568404726685136,1.0
+Target alteration,7,9,0.5968992248062015,0.4137389177839942,1.0
+Indirect / transport / metabolic variant,11,9,1.0341880341880343,1.0,1.0
+Regulatory / expression-associated,3,3,0.8297872340425532,1.0,1.0
+Accessory / contextual,3,2,1.2765957446808511,1.0,1.0
