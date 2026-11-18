@@ -1,62 +1,23 @@
-# Figures
+# Manuscript figures
 
-This directory contains the main figures used in the manuscript on antimicrobial resistance determinants in wastewater-derived *Escherichia coli*.
+These images correspond to the **current working manuscript** and remain subject to final scientific and editorial review. Both PNG and PDF formats are supplied; PDF format alone does not guarantee that every graphical element is vector-encoded.
 
-## Contents
+| Figure | Files | Analytical origin |
+| --- | --- | --- |
+| 1 — Predicted functional/contextual categories | `Figure1_functional_context_categories.{png,pdf}` | 8 non-exclusive categories × Germany influent, Germany effluent and Swedish wastewater; Wilson 95% intervals |
+| 2 — Replicated ARG associations | `Figure2_replicated_associations.{png,pdf}` | 9 display pairs from 13 FDR-significant in both collections, among 253 tested pairs |
+| 3 — Three-gene locus architecture | `Figure3_locus_architecture.{png,pdf}` | Conserved `sul2`–`aph(3'')-Ib`–`aph(6)-Id` locus (2,513 bp) in 20 assemblies, six recorded sequence variants |
 
-### Figure 1. Functional categories of AMR determinants
-- `Figure1_functional_context_categories.png`
-- `Figure1_functional_context_categories.pdf`
+Source tables for Figure 3: `figure3_locus_sequence_hashes.csv` and `figure3_reference_gene_coordinates.csv`. Figure 1 relies on `../data/derived/mechanism_dictionary_60_symbols_provisional.csv`, the corrected presence matrix and `../results/statistics/` tables. Figure 2 relies on the complete 253-test results and the nine-pair display table.
 
-This figure summarizes the prevalence of the major predicted antimicrobial resistance mechanism categories across the three study groups:
-- German influent
-- German effluent
-- Swedish wastewater
+Run checks from the repository root:
 
-The figure was generated from processed AMR annotation data and validated prevalence summaries.
+```bash
+python code/python/figure1.py --check-only
+python code/python/figure2.py --check-only
+python code/python/figure3.py --check-only
+```
 
-### Figure 2. Replicated ARG associations
-- `Figure2_replicated_associations.png`
-- `Figure2_replicated_associations.pdf`
+Remove `--check-only` to render figures (Matplotlib required). The scripts independently reproduce scientific content, but **pixel-identical styling with every archived manuscript image is not guaranteed**. Numerical disagreement after regeneration requires investigation, not acceptance as normal variation.
 
-This figure shows selected pairwise co-occurrence relationships among antimicrobial resistance genes identified in the non-POINT gene presence–absence matrix.
-
-The plotted associations represent the subset selected for visualization from the full reproducible statistical results.
-
-### Figure 3. Locus architecture
-- `Figure3_locus_architecture.png`
-- `Figure3_locus_architecture.pdf`
-
-This figure illustrates the genomic organization of the investigated sul2–aph(3'')-Ib–aph(6)-Id locus and its structural variation among the analyzed *E. coli* genomes.
-
-Where provided, accompanying source tables document the locus coordinates and structural variants used for plotting.
-
-## Reproducibility
-
-The corresponding figure-generation scripts are stored in:
-
-- `../code/python/figure1.py`
-- `../code/python/figure2.py`
-- `../code/python/figure3.py`
-
-Supporting processed data and statistical outputs are stored elsewhere in the repository, primarily in:
-
-- `../data/derived/`
-- `../results/statistics/`
-
-These figures are intended to represent the final manuscript versions.  
-PNG files are suitable for quick viewing and manuscript drafting.  
-PDF files are provided for high-resolution and vector-based use.
-
-## Notes
-
-- Figures were generated from curated and validated intermediate data rather than directly from raw NCBI downloads.
-- Some figures depend on processed analytical tables produced in earlier workflow steps.
-- If the scripts are re-run after updates to the source tables or filtering rules, minor visual or numerical changes may occur.
-
-## Provenance
-
-This directory is part of the repository:
-
-**ecoli-wastewater-amr**  
-Reproducible comparative genomic analysis of antimicrobial resistance determinants in municipal wastewater-derived *Escherichia coli*.
+Figure 1 categories are provisional genotype annotations and not direct resistance phenotype tests. Figure 2 co-occurrence is not physical linkage; Figure 3 architecture and plasmid predictions do not prove horizontal transfer.
