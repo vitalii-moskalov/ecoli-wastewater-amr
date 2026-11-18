@@ -5,6 +5,7 @@ Python scripts used to independently check or reproduce selected analytical step
 | File | Purpose |
 | --- | --- |
 | `verify_amr_data.py` | Check original TSV integrity, filtering and binary presence matrices (407 retained records, 60 symbols) |
+| `recalculate_burden_statistics.py` | Recalculate core determinant burden, Mann–Whitney/BH statistics, and deterministic 4,000-resample bootstrap intervals from the corrected matrix; reconstructed audit script |
 | `recalculate_gene_cooccurrence.py` | Recalculate 253 one-sided Fisher tests per collection and BH-adjusted p-values; generate association tables |
 | `figure1.py` | Audit and render eight functional/contextual category prevalences and Wilson intervals |
 | `figure2.py` | Audit and render nine selected ARG co-occurrence pairs |
@@ -26,4 +27,4 @@ python code/python/figure3.py --check-only
 
 The plotting scripts use Matplotlib to produce figures. **The non-plotting validation scripts largely use the Python standard library.** Regeneration scripts can write or overwrite files in `results/`; use a clean working copy or specify a separate output directory where supported. Execution parameters and required input paths are described in each script.
 
-Scientific limits: curated AMR-category assignments are partly provisional; statistical co-occurrence does not demonstrate physical linkage or horizontal gene transfer.
+Scientific limits: 19 curated AMR-category assignments remain context-dependent (`conditional`); statistical co-occurrence does not demonstrate physical linkage or horizontal gene transfer.
