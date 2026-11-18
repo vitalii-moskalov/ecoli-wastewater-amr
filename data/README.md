@@ -10,7 +10,7 @@ Input metadata and original/derived annotation records for 132 public *Escherich
 
 - `sample_manifest.csv`: assembly IDs and collection assignments.
 - [`annotations/`](annotations/): the **132 unmodified AMRFinderPlus TSV outputs**, separated by country, plus integrity hashes.
-- [`derived/`](derived/): filtered hits, exclusion log, binary matrices and provisional functional classification.
-- `selected_genomes.tsv` (where supplied): Swedish selection metadata; selection should not be construed as random geographical sampling.
+- [`derived/`](derived/): filtered hits, exclusion log, binary matrices and curated functional and contextual classification.
+- `selected_genomes.tsv`: Swedish selection metadata; selection should not be construed as random geographical sampling.
 
 NCBI genome FASTA files are not replicated in the repository. The two collections used different sampling and isolate-selection protocols; comparisons are observational/descriptive rather than estimates of national resistance prevalence.
