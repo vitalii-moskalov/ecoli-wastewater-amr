@@ -119,7 +119,7 @@ def run(root: Path, output: Path) -> dict:
     genes, matrix = load_binary_matrix(root / "data" / "derived" / "presence_gene_only.csv")
     if set(manifest) != set(matrix):
         raise ValueError("Manifest and gene-only matrix accession sets differ")
-    if len(matrix) != 132 or len(genes) != 43:
+    if len(matrix) != 132 or len(genes) != 42:
         raise ValueError(f"Unexpected dimensions: {len(matrix)} genomes, {len(genes)} genes")
 
     eligible = sorted(gene for gene in genes if sum(row[gene] for row in matrix.values()) >= 3)
