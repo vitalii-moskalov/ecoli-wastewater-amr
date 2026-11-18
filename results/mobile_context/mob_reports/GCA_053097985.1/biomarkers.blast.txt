@@ -1,0 +1,18 @@
+qseqid	sseqid	qlen	slen	qstart	qend	sstart	send	length	mismatch	pident	qcovhsp	qcovs	sstrand	evalue	bitscore	biomarker
+NZ_CM001473|MOBF	JBRDXJ010000061.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00061, whole genome shotgun sequence	450	5179	1	450	2366	2815	450	0	100.0	100.0	100.0	minus	0.0	832	oriT
+NC_013327|MOBQ	JBRDXJ010000064.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00064, whole genome shotgun sequence	178	4104	1	178	669	846	178	0	100.0	100.0	100.0	minus	4.13e-91	329	oriT
+NC_009791|MOBQ	JBRDXJ010000064.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00064, whole genome shotgun sequence	360	4104	1	360	846	1205	360	0	100.0	100.0	100.0	plus	0.0	665	oriT
+NZ_AFSD01000008|MOBP	JBRDXJ010000069.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00069, whole genome shotgun sequence	86	1845	1	86	1394	1479	86	3	96.512	100.0	100.0	plus	2.4300000000000003e-35	143	oriT
+000096__NC_019117_00097|IncFIB	JBRDXJ010000032.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00032, whole genome shotgun sequence	978	15170	1	978	5968	6945	978	11	98.875	100.0	100.0	plus	0.0	1746	replicon
+AF250878|IncFIA	JBRDXJ010000049.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00049, whole genome shotgun sequence	388	22772	1	388	4852	5240	391	41	88.235	100.0	100.0	plus	9.1e-131	462	replicon
+CP030770_00142|rep_cluster_2131	JBRDXJ010000056.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00056, whole genome shotgun sequence	567	10524	1	567	3365	3912	567	26	92.063	100.0	100.0	plus	0.0	780	replicon
+CP001126_00001|Col156	JBRDXJ010000060.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00060, whole genome shotgun sequence	936	5294	1	776	1163	1938	776	25	96.778	83.0	83.0	plus	0.0	1295	replicon
+000136__AP014877_00014|IncFIA	JBRDXJ010000062.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00062, whole genome shotgun sequence	858	4973	1	858	1521	2378	858	40	95.338	100.0	100.0	plus	0.0	1363	replicon
+001211__AP017616_00002|rep_cluster_1778	JBRDXJ010000064.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00064, whole genome shotgun sequence	702	4104	1	702	3243	3944	702	0	100.0	100.0	100.0	minus	0.0	1297	replicon
+NC_017627_00068|MOBF	JBRDXJ010000052.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00052, whole genome shotgun sequence	1756	11815	1	1756	4222	9489	1756	49	97.21	100.0	100.0	plus	0.0	3341	relaxase
+NC_019783_00003|MOBQ	JBRDXJ010000060.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00060, whole genome shotgun sequence	308	5294	1	308	2856	3779	308	6	98.052	100.0	100.0	plus	0.0	627	relaxase
+NC_011411_00002|MOBQ	JBRDXJ010000064.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00064, whole genome shotgun sequence	748	4104	1	748	760	2991	748	27	95.856	100.0	100.0	plus	0.0	1449	relaxase
+08-5333_00200|MPF_Unknown	JBRDXJ010000052.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00052, whole genome shotgun sequence	738	11815	1	738	1988	4219	747	10	97.055	100.0	100.0	plus	0.0	1435	mate-pair-formation
+NC_022651_00077|MPF_F	JBRDXJ010000061.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00061, whole genome shotgun sequence	104	5179	2	104	149	457	103	1	99.029	99.0	99.0	minus	1.63e-66	213	mate-pair-formation
+NC_008460_00107|MPF_F	JBRDXJ010000063.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00063, whole genome shotgun sequence	940	4804	1	939	534	3350	939	23	97.551	99.0	99.0	minus	0.0	1785	mate-pair-formation
+NC_010719_00097|MPF_F	JBRDXJ010000063.1 Escherichia coli strain SE-HD-W-EcE6 (p) contig00063, whole genome shotgun sequence	458	4804	23	458	3350	4657	436	11	97.477	95.0	95.0	minus	0.0	799	mate-pair-formation

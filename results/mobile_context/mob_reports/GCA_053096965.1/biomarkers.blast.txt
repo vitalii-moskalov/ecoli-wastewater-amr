@@ -1,0 +1,25 @@
+qseqid	sseqid	qlen	slen	qstart	qend	sstart	send	length	mismatch	pident	qcovhsp	qcovs	sstrand	evalue	bitscore	biomarker
+NC_016036|MOBQ	JBRDZI010000121.1 Escherichia coli strain SE-HDO-W-Ec4 contig00121, whole genome shotgun sequence	178	4209	1	178	802	979	178	0	100.0	100.0	100.0	minus	4.02e-91	329	oriT
+NC_010672|MOBQ	JBRDZI010000121.1 Escherichia coli strain SE-HDO-W-Ec4 contig00121, whole genome shotgun sequence	360	4209	1	360	979	1338	360	0	100.0	100.0	100.0	plus	0.0	665	oriT
+NZ_CM001472|MOBP	JBRDZI010000130.1 Escherichia coli strain SE-HDO-W-Ec4 contig00130, whole genome shotgun sequence	450	2473	1	450	1620	2069	450	0	100.0	100.0	100.0	minus	0.0	832	oriT
+000101__NZ_CP012345_00042|IncFIB	JBRDZI010000071.1 Escherichia coli strain SE-HDO-W-Ec4 contig00071, whole genome shotgun sequence	1071	8128	1	1071	4536	5607	1073	77	92.544	100.0	100.0	plus	0.0	1535	replicon
+000136__AP014877_00014|IncFIA	JBRDZI010000112.1 Escherichia coli strain SE-HDO-W-Ec4 contig00112, whole genome shotgun sequence	858	10578	1	858	8993	9850	858	18	97.902	100.0	100.0	minus	0.0	1485	replicon
+JN232517|IncFII	JBRDZI010000112.1 Escherichia coli strain SE-HDO-W-Ec4 contig00112, whole genome shotgun sequence	260	10578	1	260	9848	10107	260	5	98.077	100.0	100.0	plus	3.48e-128	453	replicon
+AP011954|IncI-gamma/K1	JBRDZI010000120.1 Escherichia coli strain SE-HDO-W-Ec4 contig00120, whole genome shotgun sequence	1032	4253	37	1031	1984	2978	996	87	91.064	96.0	96.0	minus	0.0	1345	replicon
+LS992172_00069|IncFII	JBRDZI010000120.1 Escherichia coli strain SE-HDO-W-Ec4 contig00120, whole genome shotgun sequence	303	4253	12	289	3519	3796	278	10	96.403	92.0	92.0	plus	8.83e-130	459	replicon
+001198__NC_010486_00001|rep_cluster_1778	JBRDZI010000121.1 Escherichia coli strain SE-HDO-W-Ec4 contig00121, whole genome shotgun sequence	702	4209	1	702	3395	4096	702	1	99.858	100.0	100.0	minus	0.0	1291	replicon
+NC_017627_00068|MOBF	JBRDZI010000114.1 Escherichia coli strain SE-HDO-W-Ec4 contig00114, whole genome shotgun sequence	1756	7090	1	1756	1397	6664	1756	28	98.405	100.0	100.0	minus	0.0	3383	relaxase
+NC_011411_00002|MOBQ	JBRDZI010000121.1 Escherichia coli strain SE-HDO-W-Ec4 contig00121, whole genome shotgun sequence	748	4209	1	748	893	3136	748	2	99.733	100.0	100.0	plus	0.0	1513	relaxase
+08-5333_00200|MPF_Unknown	JBRDZI010000103.1 Escherichia coli strain SE-HDO-W-Ec4 contig00103, whole genome shotgun sequence	738	25566	1	620	126	1976	620	16	96.935	84.0	84.0	minus	0.0	1255	mate-pair-formation
+NC_008460_00107|MPF_F	JBRDZI010000103.1 Escherichia coli strain SE-HDO-W-Ec4 contig00103, whole genome shotgun sequence	940	25566	1	939	4249	7065	939	19	97.977	99.0	99.0	minus	0.0	1791	mate-pair-formation
+NC_010719_00097|MPF_F	JBRDZI010000103.1 Escherichia coli strain SE-HDO-W-Ec4 contig00103, whole genome shotgun sequence	458	25566	2	458	7065	8435	457	12	97.374	99.0	99.0	minus	0.0	804	mate-pair-formation
+NC_019094_00068|MPF_F	JBRDZI010000103.1 Escherichia coli strain SE-HDO-W-Ec4 contig00103, whole genome shotgun sequence	616	25566	1	616	11386	13233	616	34	94.481	100.0	100.0	minus	0.0	1145	mate-pair-formation
+NC_019037_00027|MPF_F	JBRDZI010000103.1 Escherichia coli strain SE-HDO-W-Ec4 contig00103, whole genome shotgun sequence	212	25566	1	212	13233	13868	212	27	87.264	100.0	100.0	minus	6.45e-125	386	mate-pair-formation
+NC_017639_00100|MPF_F	JBRDZI010000103.1 Escherichia coli strain SE-HDO-W-Ec4 contig00103, whole genome shotgun sequence	385	25566	1	319	14248	15204	319	5	98.433	83.0	91.0	minus	0.0	603	mate-pair-formation
+NC_007675_00027|MPF_F	JBRDZI010000103.1 Escherichia coli strain SE-HDO-W-Ec4 contig00103, whole genome shotgun sequence	217	25566	1	210	15204	15833	210	4	98.095	97.0	97.0	minus	1.27e-137	422	mate-pair-formation
+NC_013437_00116|MPF_T	JBRDZI010000103.1 Escherichia coli strain SE-HDO-W-Ec4 contig00103, whole genome shotgun sequence	882	25566	3	874	16219	18834	872	73	91.628	99.0	99.0	minus	0.0	1648	mate-pair-formation
+NC_017639_00094|MPF_F	JBRDZI010000103.1 Escherichia coli strain SE-HDO-W-Ec4 contig00103, whole genome shotgun sequence	171	25566	1	171	20874	21386	171	15	91.228	100.0	100.0	minus	6.48e-93	292	mate-pair-formation
+NC_019094_00090|MPF_F	JBRDZI010000103.1 Escherichia coli strain SE-HDO-W-Ec4 contig00103, whole genome shotgun sequence	484	25566	1	471	22532	23941	471	14	96.815	97.0	97.0	minus	0.0	852	mate-pair-formation
+NC_010409_00124|MPF_F	JBRDZI010000103.1 Escherichia coli strain SE-HDO-W-Ec4 contig00103, whole genome shotgun sequence	242	25566	1	242	23944	24669	242	4	98.347	100.0	100.0	minus	6.85e-159	485	mate-pair-formation
+NC_019037_00043|MPF_F	JBRDZI010000103.1 Escherichia coli strain SE-HDO-W-Ec4 contig00103, whole genome shotgun sequence	121	25566	1	111	24890	25222	111	1	99.099	92.0	92.0	minus	2.37e-62	202	mate-pair-formation
+NC_022651_00077|MPF_F	JBRDZI010000103.1 Escherichia coli strain SE-HDO-W-Ec4 contig00103, whole genome shotgun sequence	104	25566	2	104	25247	25555	103	0	100.0	99.0	99.0	minus	8.78e-67	214	mate-pair-formation

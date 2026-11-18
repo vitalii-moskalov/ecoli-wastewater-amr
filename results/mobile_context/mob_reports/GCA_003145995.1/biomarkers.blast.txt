@@ -1,0 +1,20 @@
+qseqid	sseqid	qlen	slen	qstart	qend	sstart	send	length	mismatch	pident	qcovhsp	qcovs	sstrand	evalue	bitscore	biomarker
+AF242367|MOBF	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	291	45695	1	291	43235	43525	291	0	100.0	100.0	100.0	minus	1.09e-153	538	oriT
+000136__AP014877_00014|IncFIA	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	858	45695	1	858	7157	8014	858	33	96.154	100.0	100.0	minus	0.0	1402	replicon
+AY458016|IncFIC	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	261	45695	1	261	8012	8272	261	0	100.0	100.0	100.0	plus	4.61e-137	483	replicon
+000095__NZ_CP014273_00094|IncFIB	NBJU01000100.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont100, whole genome shotgun sequence	978	24105	1	978	20740	21717	978	14	98.569	100.0	100.0	minus	0.0	1729	replicon
+NC_017627_00068|MOBF	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	1756	45695	1	1756	13092	18359	1756	37	97.893	100.0	100.0	minus	0.0	3359	relaxase
+08-5333_00200|MPF_Unknown	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	738	45695	1	738	18362	20512	738	0	97.154	100.0	100.0	minus	0.0	1469	mate-pair-formation
+NC_009837_00049|MPF_F	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	1398	45695	406	1398	22019	24997	993	61	93.857	71.0	100.0	minus	0.0	1873	mate-pair-formation
+NC_009837_00049|MPF_F	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	1398	45695	1	405	24997	26211	405	5	98.765	29.0	100.0	minus	0.0	783	mate-pair-formation
+NC_010488_00021|MPF_F	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	602	45695	1	602	28824	30629	602	5	99.169	100.0	100.0	minus	0.0	1179	mate-pair-formation
+NC_018966_00040|MPF_F	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	212	45695	16	212	30629	31219	197	1	99.492	93.0	93.0	minus	8.630000000000001e-132	405	mate-pair-formation
+NC_017639_00100|MPF_F	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	385	45695	1	319	31309	32265	319	3	99.06	83.0	91.0	minus	0.0	607	mate-pair-formation
+NC_007675_00027|MPF_F	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	217	45695	1	210	32265	32894	210	1	99.524	97.0	97.0	minus	5.28e-139	427	mate-pair-formation
+NC_013437_00116|MPF_T	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	882	45695	1	874	33280	35901	874	75	91.419	99.0	99.0	minus	0.0	1650	mate-pair-formation
+NC_017639_00094|MPF_F	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	171	45695	1	171	36420	36932	171	6	96.491	100.0	100.0	minus	3.14e-99	310	mate-pair-formation
+NC_019094_00090|MPF_F	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	484	45695	1	466	37989	39383	466	17	96.137	96.0	96.0	minus	0.0	815	mate-pair-formation
+NC_010409_00124|MPF_F	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	242	45695	1	242	39386	40111	242	3	98.76	100.0	100.0	minus	2.93e-159	486	mate-pair-formation
+NC_019037_00043|MPF_F	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	121	45695	1	111	40332	40664	111	4	96.396	92.0	92.0	minus	2.6000000000000003e-60	196	mate-pair-formation
+NC_022651_00077|MPF_F	NBJU01000041.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont041, whole genome shotgun sequence	104	45695	2	104	40689	40997	103	0	100.0	99.0	99.0	minus	2.83e-66	213	mate-pair-formation
+NC_014304_00056|MPF_F	NBJU01000097.1 Escherichia coli strain Spr2013_WWKa_NEU_15 Cont097, whole genome shotgun sequence	699	125907	1	699	89749	91842	699	126	81.831	100.0	100.0	minus	0.0	1140	mate-pair-formation

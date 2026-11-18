@@ -1,0 +1,27 @@
+qseqid	sseqid	qlen	slen	qstart	qend	sstart	send	length	mismatch	pident	qcovhsp	qcovs	sstrand	evalue	bitscore	biomarker
+AP014804|MOBP	NBCE01000127.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont127, whole genome shotgun sequence	550	3787	1	470	2744	3213	476	43	88.445	85.0	85.0	minus	3.38e-161	564	oriT
+AP014804|MOBP	NBCE01000147.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont147, whole genome shotgun sequence	550	3813	1	550	575	1124	550	0	100.0	100.0	100.0	plus	0.0	1016	oriT
+000095__NZ_CP014273_00094|IncFIB	NBCE01000047.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont047, whole genome shotgun sequence	978	5967	1	978	1067	2044	978	14	98.569	100.0	100.0	plus	0.0	1729	replicon
+MK878891_00042|IncFIA	NBCE01000145.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont145, whole genome shotgun sequence	858	2937	31	858	142	969	828	4	99.517	97.0	97.0	plus	0.0	1507	replicon
+NC_017627_00068|MOBF	NBCE01000048.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont048, whole genome shotgun sequence	1756	18095	1	1756	922	6189	1756	37	97.893	100.0	100.0	minus	0.0	3364	relaxase
+08-5333_00200|MPF_Unknown	NBCE01000048.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont048, whole genome shotgun sequence	738	18095	1	738	6192	8351	738	11	96.07	100.0	100.0	minus	0.0	1437	mate-pair-formation
+NC_009837_00049|MPF_F	NBCE01000048.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont048, whole genome shotgun sequence	1398	18095	406	1391	10673	13624	986	51	94.625	71.0	99.0	minus	0.0	1864	mate-pair-formation
+NC_009837_00049|MPF_F	NBCE01000048.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont048, whole genome shotgun sequence	1398	18095	1	405	13624	14838	405	3	99.259	29.0	99.0	minus	0.0	787	mate-pair-formation
+NC_017639_00094|MPF_F	NBCE01000123.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont123, whole genome shotgun sequence	171	4281	1	171	383	895	171	3	98.246	100.0	100.0	plus	1.28e-101	316	mate-pair-formation
+NC_017639_00094|MPF_F	NBCE01000124.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont124, whole genome shotgun sequence	171	3170	1	171	383	895	171	3	98.246	100.0	100.0	plus	3.37e-103	316	mate-pair-formation
+NC_019037_00043|MPF_F	NBCE01000127.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont127, whole genome shotgun sequence	121	3787	1	115	6	350	115	8	93.043	95.0	95.0	minus	5.79e-61	198	mate-pair-formation
+NC_022651_00077|MPF_F	NBCE01000127.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont127, whole genome shotgun sequence	104	3787	2	104	375	683	103	1	99.029	99.0	99.0	minus	3.06e-66	212	mate-pair-formation
+NC_010409_00124|MPF_F	NBCE01000128.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont128, whole genome shotgun sequence	242	2045	1	242	80	805	242	5	97.934	100.0	100.0	plus	3.15e-170	483	mate-pair-formation
+NC_019094_00090|MPF_F	NBCE01000128.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont128, whole genome shotgun sequence	484	2045	1	413	808	2043	413	13	96.61	85.0	85.0	plus	0.0	739	mate-pair-formation
+NC_018966_00040|MPF_F	NBCE01000141.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont141, whole genome shotgun sequence	212	4355	18	212	758	1342	195	5	97.436	92.0	92.0	minus	5.0300000000000003e-129	393	mate-pair-formation
+NC_017639_00100|MPF_F	NBCE01000141.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont141, whole genome shotgun sequence	385	4355	1	319	2426	3382	319	4	98.746	83.0	83.0	minus	0.0	605	mate-pair-formation
+NC_007675_00027|MPF_F	NBCE01000141.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont141, whole genome shotgun sequence	217	4355	1	210	3382	4011	210	2	99.048	97.0	97.0	minus	9.23e-141	424	mate-pair-formation
+NC_018966_00040|MPF_F	NBCE01000142.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont142, whole genome shotgun sequence	212	3702	18	212	758	1342	195	4	97.949	92.0	92.0	minus	2.9800000000000002e-130	393	mate-pair-formation
+NC_017639_00100|MPF_F	NBCE01000142.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont142, whole genome shotgun sequence	385	3702	1	319	1773	2729	319	4	98.746	83.0	83.0	minus	0.0	605	mate-pair-formation
+NC_007675_00027|MPF_F	NBCE01000142.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont142, whole genome shotgun sequence	217	3702	1	210	2729	3358	210	2	99.048	97.0	97.0	minus	2.88e-142	424	mate-pair-formation
+NC_019094_00090|MPF_F	NBCE01000143.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont143, whole genome shotgun sequence	484	3153	1	466	54	1448	466	18	95.923	96.0	96.0	plus	0.0	816	mate-pair-formation
+NC_017639_00094|MPF_F	NBCE01000143.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont143, whole genome shotgun sequence	171	3153	1	171	2362	2874	171	3	98.246	100.0	100.0	plus	3.13e-103	316	mate-pair-formation
+NC_019094_00090|MPF_F	NBCE01000144.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont144, whole genome shotgun sequence	484	3156	1	471	54	1463	471	14	96.815	97.0	97.0	plus	0.0	857	mate-pair-formation
+NC_017639_00094|MPF_F	NBCE01000144.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont144, whole genome shotgun sequence	171	3156	1	171	2365	2877	171	3	98.246	100.0	100.0	plus	3.18e-103	316	mate-pair-formation
+NC_022651_00077|MPF_F	NBCE01000147.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont147, whole genome shotgun sequence	104	3813	2	104	3131	3439	103	1	99.029	99.0	99.0	plus	3.07e-66	212	mate-pair-formation
+NC_019037_00043|MPF_F	NBCE01000147.1 Escherichia coli strain Win2012_WWKa_OUT_33 Cont147, whole genome shotgun sequence	121	3813	1	115	3464	3808	115	8	93.043	95.0	95.0	plus	5.8e-61	198	mate-pair-formation

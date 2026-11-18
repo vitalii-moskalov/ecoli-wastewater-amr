@@ -1,0 +1,7 @@
+qseqid	sseqid	qlen	slen	qstart	qend	sstart	send	length	mismatch	pident	qcovhsp	qcovs	sstrand	evalue	bitscore	biomarker
+000107__CP014778_00094|IncFIB	JBRDYJ010000017.1 Escherichia coli strain SE-SI-W-EcE7 contig00017, whole genome shotgun sequence	1011	47794	1	1011	5005	6015	1011	99	90.208	100.0	100.0	minus	0.0	1319	replicon
+000096__NC_019117_00097|IncFIB	JBRDYJ010000040.1 Escherichia coli strain SE-SI-W-EcE7 contig00040, whole genome shotgun sequence	978	5355	1	978	1790	2767	978	15	98.466	100.0	100.0	minus	0.0	1724	replicon
+NC_014725_00039|MOBC	JBRDYJ010000017.1 Escherichia coli strain SE-SI-W-EcE7 contig00017, whole genome shotgun sequence	248	47794	1	248	16476	17219	248	0	100.0	100.0	100.0	minus	6.23e-167	508	relaxase
+NC_011092_00103|MPF_T	JBRDYJ010000017.1 Escherichia coli strain SE-SI-W-EcE7 contig00017, whole genome shotgun sequence	297	47794	1	297	26128	27018	297	0	100.0	100.0	100.0	minus	0.0	575	mate-pair-formation
+NC_011092_00102|MPF_T	JBRDYJ010000017.1 Escherichia coli strain SE-SI-W-EcE7 contig00017, whole genome shotgun sequence	228	47794	1	228	27014	27697	228	0	100.0	100.0	100.0	minus	2.1e-135	417	mate-pair-formation
+NC_011092_00100|MPF_T	JBRDYJ010000017.1 Escherichia coli strain SE-SI-W-EcE7 contig00017, whole genome shotgun sequence	335	47794	1	335	27910	28914	335	2	99.403	100.0	100.0	minus	6.4e-168	515	mate-pair-formation

@@ -1,0 +1,8 @@
+qseqid	sseqid	qlen	slen	qstart	qend	sstart	send	length	mismatch	pident	qcovhsp	qcovs	sstrand	evalue	bitscore	biomarker
+KF954760|IncFII	NBKU01000010.1 Escherichia coli strain Aut2013_WWKa_NEU_53 Cont010, whole genome shotgun sequence	295	28665	5	295	15998	16288	291	26	91.065	99.0	99.0	minus	2.5700000000000002e-110	394	replicon
+000101__NZ_CP012345_00042|IncFIB	NBKU01000020.1 Escherichia coli strain Aut2013_WWKa_NEU_53 Cont020, whole genome shotgun sequence	1071	26439	1	1071	10082	11153	1073	78	92.451	100.0	100.0	plus	0.0	1530	replicon
+000230__CP009168_00001|IncY	NBKU01000037.1 Escherichia coli strain Aut2013_WWKa_NEU_53 Cont037, whole genome shotgun sequence	861	80047	1	861	54440	55300	861	7	99.187	100.0	100.0	plus	0.0	1552	replicon
+000195__NC_013728_00014|IncQ1	NBKU01000089.1 Escherichia coli strain Aut2013_WWKa_NEU_53 Cont089, whole genome shotgun sequence	885	5940	1	885	616	1500	885	1	99.887	100.0	100.0	minus	0.0	1629	replicon
+NC_017639_00103|MOBF	NBKU01000010.1 Escherichia coli strain Aut2013_WWKa_NEU_53 Cont010, whole genome shotgun sequence	281	28665	126	233	3689	4012	108	3	97.222	38.0	83.0	minus	1.43e-54	187	relaxase
+CP023471_00010|MOBF	NBKU01000010.1 Escherichia coli strain Aut2013_WWKa_NEU_53 Cont010, whole genome shotgun sequence	1191	28665	1	832	4328	6823	832	38	95.433	70.0	80.0	minus	0.0	1600	relaxase
+NC_007607_00115|MPF_T	NBKU01000010.1 Escherichia coli strain Aut2013_WWKa_NEU_53 Cont010, whole genome shotgun sequence	504	28665	57	465	7318	8544	409	13	96.822	81.0	89.0	minus	0.0	831	mate-pair-formation

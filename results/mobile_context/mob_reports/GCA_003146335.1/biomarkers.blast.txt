@@ -1,0 +1,17 @@
+qseqid	sseqid	qlen	slen	qstart	qend	sstart	send	length	mismatch	pident	qcovhsp	qcovs	sstrand	evalue	bitscore	biomarker
+AP014804|MOBP	NBKW01000035.1 Escherichia coli strain Aut2013_WWKa_ALT_65 Cont035, whole genome shotgun sequence	550	50559	1	550	1974	2523	550	0	100.0	100.0	100.0	plus	0.0	1016	oriT
+000136__AP014877_00014|IncFIA	NBKW01000035.1 Escherichia coli strain Aut2013_WWKa_ALT_65 Cont035, whole genome shotgun sequence	858	50559	1	858	40849	41706	858	3	99.65	100.0	100.0	plus	0.0	1568	replicon
+000217__NC_019106_00041|IncX1	NBKW01000055.1 Escherichia coli strain Aut2013_WWKa_ALT_65 Cont055, whole genome shotgun sequence	447	15133	1	447	7066	7512	447	6	98.658	100.0	100.0	minus	0.0	793	replicon
+000195__NC_013728_00014|IncQ1	NBKW01000117.1 Escherichia coli strain Aut2013_WWKa_ALT_65 Cont117, whole genome shotgun sequence	885	4952	1	704	34	737	705	1	99.574	80.0	98.0	minus	0.0	1284	replicon
+NC_017627_00068|MOBF	NBKW01000035.1 Escherichia coli strain Aut2013_WWKa_ALT_65 Cont035, whole genome shotgun sequence	1756	50559	1	1756	29657	34924	1756	48	97.267	100.0	100.0	plus	0.0	3347	relaxase
+NC_022651_00077|MPF_F	NBKW01000035.1 Escherichia coli strain Aut2013_WWKa_ALT_65 Cont035, whole genome shotgun sequence	104	50559	2	104	4530	4838	103	1	99.029	99.0	99.0	plus	3.1000000000000003e-66	212	mate-pair-formation
+NC_010409_00124|MPF_F	NBKW01000035.1 Escherichia coli strain Aut2013_WWKa_ALT_65 Cont035, whole genome shotgun sequence	242	50559	1	242	5416	6141	242	4	98.347	100.0	100.0	plus	1.81e-158	484	mate-pair-formation
+NC_019094_00090|MPF_F	NBKW01000035.1 Escherichia coli strain Aut2013_WWKa_ALT_65 Cont035, whole genome shotgun sequence	484	50559	1	471	6144	7553	471	14	96.815	97.0	97.0	plus	0.0	854	mate-pair-formation
+NC_017639_00094|MPF_F	NBKW01000035.1 Escherichia coli strain Aut2013_WWKa_ALT_65 Cont035, whole genome shotgun sequence	171	50559	1	171	8455	8967	171	3	98.246	100.0	100.0	plus	3.5e-101	316	mate-pair-formation
+NC_013437_00116|MPF_T	NBKW01000035.1 Escherichia coli strain Aut2013_WWKa_ALT_65 Cont035, whole genome shotgun sequence	882	50559	3	874	10603	13218	872	74	91.514	99.0	99.0	plus	0.0	1648	mate-pair-formation
+NC_007675_00027|MPF_F	NBKW01000035.1 Escherichia coli strain Aut2013_WWKa_ALT_65 Cont035, whole genome shotgun sequence	217	50559	1	210	13604	14233	210	2	99.048	97.0	97.0	plus	2.4499999999999998e-138	424	mate-pair-formation
+NC_017639_00100|MPF_F	NBKW01000035.1 Escherichia coli strain Aut2013_WWKa_ALT_65 Cont035, whole genome shotgun sequence	385	50559	1	319	14233	15189	319	4	98.746	83.0	91.0	plus	0.0	605	mate-pair-formation
+NC_018966_00040|MPF_F	NBKW01000035.1 Escherichia coli strain Aut2013_WWKa_ALT_65 Cont035, whole genome shotgun sequence	212	50559	18	212	15620	16204	195	4	97.949	92.0	92.0	plus	2.77e-127	393	mate-pair-formation
+NC_019094_00068|MPF_F	NBKW01000035.1 Escherichia coli strain Aut2013_WWKa_ALT_65 Cont035, whole genome shotgun sequence	616	50559	1	616	16204	18051	616	34	94.481	100.0	100.0	plus	0.0	1144	mate-pair-formation
+NC_008460_00107|MPF_F	NBKW01000035.1 Escherichia coli strain Aut2013_WWKa_ALT_65 Cont035, whole genome shotgun sequence	940	50559	1	940	22374	25193	940	25	97.34	100.0	100.0	plus	0.0	1785	mate-pair-formation
+NC_019072_00073|MPF_T	NBKW01000035.1 Escherichia coli strain Aut2013_WWKa_ALT_65 Cont035, whole genome shotgun sequence	720	50559	1	720	27468	29654	729	0	98.765	100.0	100.0	plus	0.0	1437	mate-pair-formation

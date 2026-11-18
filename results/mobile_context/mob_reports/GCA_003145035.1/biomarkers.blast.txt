@@ -1,0 +1,2 @@
+qseqid	sseqid	qlen	slen	qstart	qend	sstart	send	length	mismatch	pident	qcovhsp	qcovs	sstrand	evalue	bitscore	biomarker
+000195__NC_013728_00014|IncQ1	NBCH01000044.1 Escherichia coli strain Win2012_WWKa_NEU_7 Cont044, whole genome shotgun sequence	885	6026	1	885	4484	5368	885	0	100.0	100.0	100.0	plus	0.0	1635	replicon
