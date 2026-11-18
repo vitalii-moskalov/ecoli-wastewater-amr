@@ -1,27 +1,16 @@
-# Data
+# Study data
 
-This directory contains the input metadata, antimicrobial resistance annotation outputs, and derived data matrices used in the comparative genomic analysis of 132 wastewater-derived Escherichia coli assemblies.
+Input metadata and original/derived annotation records for 132 public *Escherichia coli* assemblies from municipal wastewater.
 
-## Genome collections
+| Collection | Assemblies | NCBI BioProject |
+| --- | ---: | --- |
+| Germany, influent | 50 | PRJNA380388 |
+| Germany, effluent | 42 | PRJNA380388 |
+| Sweden, selected wastewater | 40 | PRJNA1266621 |
 
-- Germany, WWTP influent: 50 genomes (PRJNA380388).
-- Germany, WWTP effluent: 42 genomes (PRJNA380388).
-- Sweden, wastewater: 40 genomes (PRJNA1266621).
+- `sample_manifest.csv`: assembly IDs and collection assignments.
+- [`annotations/`](annotations/): the **132 unmodified AMRFinderPlus TSV outputs**, separated by country, plus integrity hashes.
+- [`derived/`](derived/): filtered hits, exclusion log, binary matrices and provisional functional classification.
+- `selected_genomes.tsv` (where supplied): Swedish selection metadata; selection should not be construed as random geographical sampling.
 
-## Data organization
-
-The directory will contain:
-
-- Genome accession lists and sample metadata.
-- Original AMRFinderPlus annotation tables.
-- Filtered core AMR annotations.
-- Binary presence–absence matrices.
-- Functional mechanism classification data.
-
-Original genome assemblies are available through NCBI and will not be duplicated here.
-
-## Data validation
-
-All derived tables are subject to verification against the original annotation files. Filtering criteria and provenance information will be documented in the repository.
-
-The two genome collections were obtained using different sampling and isolation strategies. They should not be treated as representative samples for estimating geographical differences in AMR prevalence.
+NCBI genome FASTA files are not replicated in the repository. The two collections used different sampling and isolate-selection protocols; comparisons are observational/descriptive rather than estimates of national resistance prevalence.
