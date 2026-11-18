@@ -20,7 +20,7 @@ The analyses cover AMRFinderPlus annotations, curated presence–absence matrice
 | [`code/`](code/) | Historical Bash workflows, reconstructed retrieval script, Python analyses and validation |
 | [`results/`](results/) | Statistics, MLST/ANI, and original/derived mobile-context reports |
 | [`figures/`](figures/) | Three manuscript figures, numeric plotting sources and formats |
-| [`supplementary/`](supplementary/) | Audited **working draft** of Supplementary Tables S1–S5 and provenance notes |
+| [`supplementary/`](supplementary/) | Audited Supplementary Tables S1–S5 and provenance notes; manuscript text remains under editorial revision |
 
 ## Principal software and reference data
 
@@ -34,15 +34,16 @@ The analyses cover AMRFinderPlus annotations, curated presence–absence matrice
 - The corrected conservative annotation dataset retains **407 AMRFinderPlus records**, **60 unique determinant symbols**, and documents **18 excluded records**, including an `INTERNAL_STOP` hit.
 - The gene-only analysis considered **253 pairs** among 23 eligible gene symbols. **13** pairs pass FDR < 0.05 in both collections; **nine** are displayed in Figure 2 after an additional minimum of three co-detections in each collection.
 - Statistical co-occurrence is not evidence of physical linkage. Same-contig localization is distinct from plasmid prediction, and neither alone demonstrates horizontal gene transfer.
-- Functional mechanism assignments remain **provisional** for some variants and do not establish experimentally measured resistance phenotypes.
+- The annotation-based category dictionary has been curated and reviewed (41 `high`, 19 `conditional` assignments); these categories are not experimentally measured resistance phenotypes.
 
 ## Basic reproducibility checks
 
-Clone or download the repository and run the following commands **from its root** using Python 3:
+Clone or download the repository and run the following commands **from its root** using Python 3. Audit dependencies are listed in [`requirements-audit.txt`](requirements-audit.txt) (tested with Python 3.13.5; these are post hoc audit versions, not the original Ubuntu/WSL2 software environment):
 
 ```bash
 python code/python/verify_amr_data.py
 python code/python/recalculate_gene_cooccurrence.py --help
+python code/python/recalculate_burden_statistics.py --help
 python code/python/verify_clonality_results.py
 python code/python/verify_mobile_context_reports.py
 python code/python/figure1.py --check-only
@@ -54,7 +55,7 @@ Some figure-generation commands additionally require Matplotlib. **Caution:** ce
 
 ## Scientific and publication status
 
-The supplementary tables are an **audited working draft**. Table S5 and the functional category assignments remain provisional. Manuscript Table 1, methods and final text must be aligned with the `INTERNAL_STOP` correction before journal submission. Read [`supplementary/AUDIT_AND_PROVENANCE.md`](supplementary/AUDIT_AND_PROVENANCE.md) for known limitations.
+The S1–S5 tables and S5 category dictionary have been numerically audited and scientifically curated, with 19 context-dependent (`conditional`) entries retained. Corrected bootstrap burden results and their reconstructed reproduction script are available in `results/statistics/` and `code/python/`, respectively. The manuscript remains under editorial revision; its Table 1, Results and Abstract must be brought into agreement with the corrected `INTERNAL_STOP` filtering before submission. Read [`supplementary/AUDIT_AND_PROVENANCE.md`](supplementary/AUDIT_AND_PROVENANCE.md) for known limitations.
 
 ## Licensing and attribution
 
