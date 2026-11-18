@@ -1,0 +1,4 @@
+group,n,total_symbols,mean,median,n_positive
+Germany influent,50,121,2.42000000,1.00000000,27
+Germany effluent,42,107,2.54761905,1.00000000,27
+Sweden wastewater,40,163,4.07500000,3.00000000,28

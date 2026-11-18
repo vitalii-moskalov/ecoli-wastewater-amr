@@ -1,0 +1,4 @@
+group_a,group_b,n_a,n_b,mean_diff_b_minus_a,ci95_lower,ci95_upper,ci_contains_zero,mw_u_p_two_sided,mw_bh_q_3,bootstrap_n,seed
+Germany influent,Germany effluent,50,42,0.12761905,-1.36964286,1.53335714,true,0.348977864422,0.348977864422,4000,20261118
+Germany influent,Sweden wastewater,50,40,1.65500000,-0.14512500,3.43012500,true,0.0332239652728,0.0996718958185,4000,20261119
+Germany effluent,Sweden wastewater,42,40,1.52738095,-0.08452381,3.34172619,true,0.182857916591,0.274286874887,4000,20261120
