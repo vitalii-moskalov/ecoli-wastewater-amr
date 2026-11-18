@@ -8,7 +8,7 @@ The original per-assembly AMRFinderPlus files are in [`../annotations/`](../anno
 | `excluded_uncertain_hits.csv` | **18** excluded records, including one `INTERNAL_STOP` finding |
 | `presence_all_core.csv` | Binary per-genome matrix, **60** retained determinant symbols |
 | `presence_gene_only.csv` | Binary per-genome matrix, **42** non-POINT symbols |
-| `mechanism_dictionary_60_symbols_provisional.csv` | **Provisional** assignment of retained symbols to functional/contextual categories |
+| `mechanism_dictionary_60_symbols.csv` | Curated annotation-based assignment of retained symbols to functional/contextual categories (41 high, 19 conditional) |
 | `FUNCTIONAL_CLASSIFICATION_NOTES.md` | Caveats and ambiguous functional assignments |
 
 One determinant symbol is counted at most once per assembly in the presence matrices. The `INTERNAL_STOP` hit for `estX/sat2` was removed as part of the final conservative filtering audit; original TSVs were not changed.
