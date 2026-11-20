@@ -2,9 +2,9 @@
 
 Supporting datasets, computational scripts, validation routines and figures for the study:
 
-**Molecular diversity and co-occurrence of antimicrobial resistance determinants in wastewater-derived Escherichia coli: a comparative genomic analysis**
+**Antimicrobial resistance determinants and recurrent gene associations in wastewater-derived *Escherichia coli*: a comparative genomic analysis**
 
-Authors: V. B. Moskalov and Y. D. Batuieva.
+Authors: V. B. Moskalov, Y. D. Batuieva, and O. O. Avksentieva.
 
 ## Scope and design
 
@@ -20,7 +20,7 @@ The analyses cover AMRFinderPlus annotations, curated presence–absence matrice
 | [`code/`](code/) | Historical Bash workflows, reconstructed retrieval script, Python analyses and validation |
 | [`results/`](results/) | Statistics, MLST/ANI, and original/derived mobile-context reports |
 | [`figures/`](figures/) | Three manuscript figures, numeric plotting sources and formats |
-| [`supplementary/`](supplementary/) | Audited Supplementary Tables S1–S5 and provenance notes; manuscript text remains under editorial revision |
+| [`supplementary/`](supplementary/) | Audited Supplementary Tables S1–S5 and provenance notes; scientific and interpretative limitations documented |
 
 ## Principal software and reference data
 
@@ -55,7 +55,7 @@ Some figure-generation commands additionally require Matplotlib. **Caution:** ce
 
 ## Scientific and publication status
 
-The S1–S5 tables and S5 category dictionary have been numerically audited and scientifically curated, with 19 context-dependent (`conditional`) entries retained. Corrected bootstrap burden results and their reconstructed reproduction script are available in `results/statistics/` and `code/python/`, respectively. The manuscript remains under editorial revision; its Table 1, Results and Abstract must be brought into agreement with the corrected `INTERNAL_STOP` filtering before submission. Read [`supplementary/AUDIT_AND_PROVENANCE.md`](supplementary/AUDIT_AND_PROVENANCE.md) for known limitations.
+The S1–S5 tables and S5 category dictionary have been numerically audited and scientifically curated, with 19 context-dependent (`conditional`) entries retained. Corrected bootstrap burden results and their reconstructed reproduction script are available in `results/statistics/` and `code/python/`, respectively. The revised manuscript incorporates the corrected `INTERNAL_STOP` filtering, Table 1, burden statistics, and the distinction between 13 jointly significant ARG pairs and nine pairs displayed in Figure 2. The manuscript is undergoing co-author review; final editorial and journal-format checks may lead to further revisions. Read [`supplementary/AUDIT_AND_PROVENANCE.md`](supplementary/AUDIT_AND_PROVENANCE.md) for known limitations.
 
 ## Licensing and attribution
 
